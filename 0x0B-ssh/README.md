@@ -19,8 +19,6 @@ You can access your server information in the my servers section of the intranet
 Note: Your server is configured with an Ubuntu 20.04 LTS environment.
 
 Resources
-Read or watch:
-
 What is a (physical) server - text
 What is a (physical) server - video
 SSH essentials
