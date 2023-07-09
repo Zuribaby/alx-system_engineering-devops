@@ -1,0 +1,1 @@
+ssh ubuntu@54.237.55.65 -i private_key
