@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # write a Bash script that runs whoami on user argument
 
-sudo su "$1" -s /bin/bash -c 'whoami'
+su "$1" -s /bin/bash -c 'whoami'
