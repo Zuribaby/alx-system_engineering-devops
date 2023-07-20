@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Write a script that creates a backup file for all your mysql database and stores them in an archive.
+
+mysqldump -u 'root' -p'$1' --all-databases > 'backup.sql'
+gzip -c 'backup.sql' > $(date "+%d-%m-%Y").'tar.gz'
